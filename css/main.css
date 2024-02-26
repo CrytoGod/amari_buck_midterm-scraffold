@@ -1,0 +1,105 @@
+/*index css*/
+
+#logo-2 {
+    display: none;
+  }
+  
+  #des-text {
+    display: none;
+  }
+
+ .object{
+    height: 150px;
+ } 
+
+ #banner {
+    height: 250px;
+ }
+
+ #footer {
+    height: 300px;
+ }
+ 
+   /* ---Tablet Library Grid Styles--- */
+  
+   @media screen and (min-width: 768px) {
+
+    /*index css*/
+    #logo-1 {
+        display: none;
+      }
+
+      #logo-2 {
+        display: inline-block;
+
+      }
+
+      #banner {
+        height: 350px;
+     }
+    
+      #des-text {
+        display: inline-block;
+      }
+
+      #phone-text {
+        display: none;
+      }
+
+    .object{
+        height: 200px;
+     } 
+    
+     #hero {
+        height: 300px;
+     }
+
+     #footer {
+        height: 400px;
+     }
+   }
+ 
+ 
+ 
+ /* ---Desktop Library Grid Styles--- */
+  
+    @media screen and (min-width: 1200px) {
+
+        /*index css*/
+
+        #logo-1 {
+            display: none;
+          }
+
+          #logo-2 {
+            display: inline-block;
+          }
+
+
+          #banner {
+            height: 450px;
+         }
+
+
+          #phone-text {
+            display: none;
+          }
+        
+
+          #des-text {
+            display: inline-block;
+          }
+    
+
+
+
+          .object{
+            height: 350px;
+         } 
+        
+       
+
+         #footer {
+            height: 500px;
+         }
+    }
