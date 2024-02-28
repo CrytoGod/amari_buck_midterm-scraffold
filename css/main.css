@@ -19,6 +19,22 @@
  #footer {
     height: 300px;
  }
+
+ /*services css*/
+
+ .mobile{ 
+    display: inline-flex;
+ }
+
+ .desktop {
+    display: none;
+
+ }
+
+
+ .des-top-1{
+    display: none;
+ }
  
    /* ---Tablet Library Grid Styles--- */
   
@@ -58,7 +74,23 @@
         height: 400px;
      }
    }
+   
+
+ /*services css*/
+
+ .mobile {
+    display: none;
+ }
  
+ .desktop {
+    display: inline-block;
+ }
+ 
+
+
+ .des-top-1{
+    display: none;
+ }
  
  
  /* ---Desktop Library Grid Styles--- */
@@ -103,3 +135,19 @@
             height: 500px;
          }
     }
+ /*services css*/
+ 
+ .mobile {
+    display: none;
+ }
+ 
+ .desktop {
+    display: inline-block;
+ }
+
+
+ 
+ .des-top-1{
+    display: inline-block;
+ }
+ 
